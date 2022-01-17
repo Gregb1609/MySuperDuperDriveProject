@@ -11,7 +11,6 @@ public class HomeController {
 
     @GetMapping
     public String homeView(Model model){
-
         return "home";
     }
 }
